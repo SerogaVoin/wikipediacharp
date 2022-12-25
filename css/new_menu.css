@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.menu, .Logo{
+     margin-right: 25px;
+     display: inline-block;
+     vertical-align: middle; 
+}
+.Logo li{
+	margin-right: 25px; 
+	display: inline-block;
+	vertical-align: middle;
+}
+.Logo a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Logo a:hover{
+	color: #26C4FF
+}
+.menu h1{
+	font-family: arial;
+	font-size: 25px;
+	vertical-align: middle;
+	color: white;
+}

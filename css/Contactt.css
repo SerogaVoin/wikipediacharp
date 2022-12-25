@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.Comp, .nazz{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.nazz li{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.nazz a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+    text-decoration: none;
+}
+.nazz a:hover{
+	color: #26C4FF
+}
+.Comp h2{
+	font-family: arial;
+	font-size: 25px;
+	vertical-align: middle;
+	color: white;
+}
+main{
+	display: flex;
+	width: 100vw;
+	height: 80vw;
+	margin-top: 5vh;
+}
+.media{
+	width: 45vw;
+	margin-left: 2vw;
+}
+h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 40px;
+	text-shadow: 4px 4px 6px black;
+}
+.text{
+	font-size: 18px;
+	color: white;
+	margin-top: 20px;
+	text-shadow: 4px 4px 6px black;
+}
